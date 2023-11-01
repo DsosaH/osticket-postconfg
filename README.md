@@ -85,4 +85,14 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/2fde8809-129b-4d4c-9e42-da524f0ced6f)
 ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/d2df3c18-db25-4b08-ac58-1bee65fd0723)
 
+</p><br/>
+<h2>Tickets</h2>
+<p>
+  Ticket refers to a user issuing a complain or problem to the system in order for it to be assigned the proper department, urgency and solution as soon as possible.<br>
+  We'll now configure osTicket to allow anyone to send tickets. by going to <ins>Admin Panel -> Settings -> User Settings</ins> and once here we can decide if we want to allow anyone or just registred users to send tickets by leaving or cheking the shown below option. For this example, we'll leave it unchecked to allow anonymus ticket submission.
+</p>
+<p>
+
+   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/c525e151-4d46-44ff-b10b-dca8903719d1)
+
 </p>

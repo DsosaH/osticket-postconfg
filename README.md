@@ -96,3 +96,22 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
    ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/c525e151-4d46-44ff-b10b-dca8903719d1)
 
 </p>
+<br/>
+<h2>Agents</h2>
+<p>Agents are the ones in charge of solving the tickes that come to the help desk. Each agent can be assigned roles, departments and teams.<br>
+  To create a new agent we go to <ins>Admin Panel -> Agents -> Add New Agent</ins>.
+</p>
+<p>
+
+ ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/6f29689e-3697-4bde-ace1-7d8076e7ffc7)
+ 
+</p>
+<p>
+  While creating a new agent you must assign a user name and a password that can be later changed by the agent. You can also assign departments and roles or even add to a team. In this example we'll create an agent with administrator capabilities.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/a5cf1b93-3922-4a34-ba5b-b30123e898f8)
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/9a4ef3f2-7e7d-4f6e-bc38-efc5442d7727)
+
+</p>

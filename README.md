@@ -150,5 +150,49 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
     <li>SEV-A (1 Hour, 24/7)</li>
     <li>SEV-B (4 Hours, 24/7)</li>
     <li>SEV-C (8 Hours, within business hours)</li>
-  <ul/>  
+  <ul/><br>
+  We can make a new SLA by going to <ins>Admin Panel -> Manage -> SLA</ins> and clicking "Add New SLA Plan".
 </p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/cdbf1a98-96a6-490f-b1e4-f6e69a5945d8)
+
+</p>
+<p>
+  While adding a new SLA, you must select a Name, a grace period for the problem to be solved and a schedule for the days it can be solved. You can se in the example below how it looks to create a new SLA and the screen after we created 3 of them.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/5febaa8a-532b-48f2-87d4-16ef5fb2da16)
+![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/64a5074f-047a-4c78-a678-c2089b94f386)
+
+</p><br/>
+<h2>Help Topics</h2>
+<p>
+  Help Topics help pinpoint/categorize more easily the problem for the customer at the moment they create the ticket. For example, a customer may have a problem with their hardware and so, they submit their ticket to the help topic "Equipment Malfunction".<br>
+  To create help topics go to <ins>Admin Panel -> Manage -> Help Topics</ins> and click "Add New Help Topic".
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/afbedf6b-203a-4bd9-98e4-4c6360b535ac)
+
+</p>
+<p>
+  Give your topic a name, status, type and parent if it applies as a subcategory of another already created help topic (ex. New Equipment Opinions -> General Feedback). Assign department, priority and SLA plan in the "New ticket options" tab.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/ab85c298-975c-441b-b3ad-7e22ed423c3a)
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/6558f12e-5125-47f1-bb6c-52f05e7c28f8)
+
+
+</p>
+<p>
+  After adding the new topic, you can see it appears along the other topics on the main tab.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/1ca10d09-75a8-4862-afe6-5bb0aadf57c8)
+
+</p>
+<br/>

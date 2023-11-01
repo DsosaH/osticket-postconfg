@@ -107,11 +107,48 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
  
 </p>
 <p>
-  While creating a new agent you must assign a user name and a password that can be later changed by the agent. You can also assign departments and roles or even add to a team. In this example we'll create an agent with administrator capabilities.
+  While creating a new agent you must assign a user name and a password that can be later changed by the agent. You can also assign departments and roles or even add to a team. In this example we'll create an agent with administrator capabilities that belongs in the "System Administrator" department and has the "SuperAdmin" Role.
 </p>
 <p>
 
   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/a5cf1b93-3922-4a34-ba5b-b30123e898f8)
   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/9a4ef3f2-7e7d-4f6e-bc38-efc5442d7727)
 
+</p>
+<p>
+  As you can see, the new agent apear now in the agent tab with all his relevant info.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/c8d42e2a-5918-40cd-8e27-d653da687f29)
+
+</p>
+<br/>
+<h2>Users(Customers)</h2>
+<p>
+  User refers a to non-agent person that submits tickets. They can be registred or anonymus. In this example let's create a new user by going to <ins>Agent Panel -> Users -> Add New User</ins>.
+</p>
+<p>
+  
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/bc86582d-1353-48ff-af14-3dc7159d79df)
+
+</p>
+<p>
+  In this tab you can enter a name and a email in order to create a new user and it will now appear inside the "User Directory".
+</p>
+<p>
+  
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/11b6b20d-6717-49f1-a289-0defb4642a10)
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/833d5bf7-2ed1-467a-885d-3cc56b11690d)
+
+</p><br/>
+<h2>SLA</h2>
+<p>
+  SLA or "Service Level Agreements" are a guarantee to the customer that their problem will be solved within a frame of time, depending of the urgency of the issue. You can stipulate an arrange of SLA's for different reasons. For this example we'll create 3 different ones:
+  <ul>
+    <li>SEV-A (1 Hour, 24/7)</li>
+    <li>SEV-B (4 Hours, 24/7)</li>
+    <li>SEV-C (8 Hours, within business hours)</li>
+  <ul/>  
 </p>

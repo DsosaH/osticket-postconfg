@@ -25,10 +25,28 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 
 </p>
 <p>
-  Once inside the Admin Panel, we'll add new roles by going <ins>Agents -> Roles -> Add New Role</ins>
+  Once inside the Admin Panel, we'll add new roles by going <ins>Agents -> Roles -> Add New Role</ins>.<br>
 </p>
 <p>
   
   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/cba9a2e8-3a27-4a81-a5d2-176efd7158fa)
 
 </p>
+<p>
+  Here we can create any role we want with any permission we need it to have, for example: We need a role that has the same power as an Admin and can do any changes as needed, we'll call it **SuperAdmin**.<br>
+  As said before, we want this role to have as much permissions as possible, so we'll check all the boxes we can and then add the role.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/93f4b6fb-d9f0-4a9a-944e-2f85f92bd738)
+
+</p>
+<p>
+  As you can see, our new Role has been added and we'll now be able to assign it to an agent soon.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/5d5b5aee-e7bb-432f-8763-aa0ac802d26e)
+
+</p><br/>
+<h2>Departments</h2>

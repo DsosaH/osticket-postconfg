@@ -63,5 +63,26 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 <p>
 
   ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/7de6d8af-ee56-41bf-bbd1-c7a1909d3803)
+![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/a744781f-2ce7-4986-abb1-57c79725acad)
+
+</p>
+<br/>
+<h2>Teams</h2>
+<p>
+  Teams are a versatile form of grouping that let's you pull agents from diferent departments into a single group to solve a very specific problem. Are very helpful when you need a group of very specific peaople (like the best technician of every department, etc).<br>
+  To create a new team go to <ins>Agents -> Teams -> Add New team</ins>.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/f0dfa81f-72cb-4fac-9e8a-0352b3241d2f)
+
+</p>
+<p>
+  You can create a with the name of the specific topic that needs attention and add the members now or later. Once you create the team, it stays in the team tab until deleted. As you can see we added another team named "Level II Support".
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/2fde8809-129b-4d4c-9e42-da524f0ced6f)
+![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/d2df3c18-db25-4b08-ac58-1bee65fd0723)
 
 </p>

@@ -50,3 +50,18 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 
 </p><br/>
 <h2>Departments</h2>
+<p>Deparments are close to roles in that they help keep things organized. We can use and configure departments so that any agent inside it can fulfill the corresponding issue the deparment was made for without caring for the agent's role.<br>
+By going <ins>Agents -> Departments -> Add New Department</ins> we can create a new department.</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/48ed7373-6e0f-47b6-ae57-c6f194bed4d3)
+
+</p>
+<p>
+  For this example we'll create a department named **System Admins**, in the creation window we can see a lot of configurable options, like the type of department, ticket assignement and SLA that help define what a Deparment's Speciality is. For this, we'll just let all in default as this is just and example.
+</p>
+<p>
+
+  ![image](https://github.com/DsosaH/osticket-postconfg/assets/148100125/7de6d8af-ee56-41bf-bbd1-c7a1909d3803)
+
+</p>

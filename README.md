@@ -7,7 +7,7 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure 
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -16,7 +16,7 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 - Windows 10</b> (21H2)
 <h2>Configuring Roles</h2>
 <p>
-  osTicket, like most ticketing systems, depend on a hierarchy in order to correctly deliver the ticket depending on how urgent and dificult a task is. For this reason we need to create and assign the correct roles.<br>
+  osTicket, like most ticketing systems, depend on a hierarchy in order to correctly deliver the ticket depending on how urgent and difficult a task is. For this reason, we need to create and assign the correct roles.<br>
   To begin, we need to first access to osTicket using the user we designated as our Admin. Once inside, we'll need to go to the Admin Panel in order to make changes.
 </p>
 <p>
@@ -34,7 +34,7 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 </p>
 <p>
   Here we can create any role we want with any permission we need it to have, for example: We need a role that has the same power as an Admin and can do any changes as needed, we'll call it **SuperAdmin**.<br>
-  As said before, we want this role to have as much permissions as possible, so we'll check all the boxes we can and then add the role.
+  As said before, we want this role to have as many permissions as possible, so we'll check all the boxes we can and then add the role.
 </p>
 <p>
 
@@ -42,7 +42,7 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 
 </p>
 <p>
-  As you can see, our new Role has been added and we'll now be able to assign it to an agent soon.
+  As you can see, our new Role has been added, and we'll now be able to assign it to an agent soon.
 </p>
 <p>
 
@@ -50,7 +50,7 @@ This is the next part of the tutorial, where we'll configure osTicket so it is f
 
 </p><br/>
 <h2>Departments</h2>
-<p>Deparments are close to roles in that they help keep things organized. We can use and configure departments so that any agent inside it can fulfill the corresponding issue the deparment was made for without caring for the agent's role.<br>
+<p>Departments are close to roles in that they help keep things organized. We can use and configure departments so that any agent inside it can fulfill the corresponding issue the department was made for without caring for the agent's role.<br>
 By going <ins>Agents -> Departments -> Add New Department</ins> we can create a new department.</p>
 <p>
 
@@ -58,7 +58,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <p>
-  For this example we'll create a department named **System Admins**, in the creation window we can see a lot of configurable options, like the type of department, ticket assignement and SLA that help define what a Deparment's Speciality is. For this, we'll just let all in default as this is just and example.
+  For this example we'll create a department named **System Admins**, in the creation window we can see a lot of configurable options, like the type of department, ticket assignment and SLA that help define what a Department's Specialty is. For this, we'll just let all in default, as this is just and example.
 </p>
 <p>
 
@@ -69,8 +69,8 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 <br/>
 <h2>Teams</h2>
 <p>
-  Teams are a versatile form of grouping that let's you pull agents from diferent departments into a single group to solve a very specific problem. Are very helpful when you need a group of very specific peaople (like the best technician of every department, etc).<br>
-  To create a new team go to <ins>Agents -> Teams -> Add New team</ins>.
+  Teams are a versatile form of grouping that let you pull agents from different departments into a single group to solve a very specific problem. Are very helpful when you need a group of very specific people (like the best technician of every department, etc.).<br>
+  To create a new team, go to <ins>Agents -> Teams -> Add New team</ins>.
 </p>
 <p>
 
@@ -78,7 +78,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <p>
-  You can create a with the name of the specific topic that needs attention and add the members now or later. Once you create the team, it stays in the team tab until deleted. As you can see we added another team named "Level II Support".
+  You can create a with the name of the specific topic that needs attention and add the members now or later. Once you create the team, it stays in the team tab until deleted. As you can see, we added another team named "Level II Support".
 </p>
 <p>
 
@@ -88,8 +88,8 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 </p><br/>
 <h2>Tickets</h2>
 <p>
-  Ticket refers to a user issuing a complain or problem to the system in order for it to be assigned the proper department, urgency and solution as soon as possible.<br>
-  We'll now configure osTicket to allow anyone to send tickets. by going to <ins>Admin Panel -> Settings -> User Settings</ins> and once here we can decide if we want to allow anyone or just registred users to send tickets by leaving or cheking the shown below option. For this example, we'll leave it unchecked to allow anonymus ticket submission.
+  Ticket refers to a user issuing a complaint or problem to the system in order for it to be assigned the proper department, urgency and solution as soon as possible.<br>
+  We'll now configure osTicket to allow anyone to send tickets. By going to <ins>Admin Panel -> Settings -> User Settings</ins> and once here we can decide if we want to allow anyone or just registered users to send tickets by leaving or checking the shown below option. For this example, we'll leave it unchecked to allow anonymous ticket submission.
 </p>
 <p>
 
@@ -98,8 +98,8 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 </p>
 <br/>
 <h2>Agents</h2>
-<p>Agents are the ones in charge of solving the tickes that come to the help desk. Each agent can be assigned roles, departments and teams.<br>
-  To create a new agent we go to <ins>Admin Panel -> Agents -> Add New Agent</ins>.
+<p>Agents are the ones in charge of solving the tickets that come to the help desk. Each agent can be assigned roles, departments and teams.<br>
+  To create a new agent, we go to <ins>Admin Panel -> Agents -> Add New Agent</ins>.
 </p>
 <p>
 
@@ -107,7 +107,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
  
 </p>
 <p>
-  While creating a new agent you must assign a user name and a password that can be later changed by the agent. You can also assign departments and roles or even add to a team. In this example we'll create an agent with administrator capabilities that belongs in the "System Administrator" department and has the "SuperAdmin" Role.
+  While creating a new agent, you must assign a username and a password that can be later changed by the agent. You can also assign departments and roles, or even add to a team. In this example, we'll create an agent with administrator capabilities that belongs in the "System Administrator" department and has the "SuperAdmin" Role.
 </p>
 <p>
 
@@ -116,7 +116,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <p>
-  As you can see, the new agent apear now in the agent tab with all his relevant info.
+  As you can see, the new agent appears now in the agent tab with all his relevant info.
 </p>
 <p>
 
@@ -124,9 +124,9 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <br/>
-<h2>Users(Customers)</h2>
+<h2>Users (Customers)</h2>
 <p>
-  User refers a to non-agent person that submits tickets. They can be registred or anonymus. In this example let's create a new user by going to <ins>Agent Panel -> Users -> Add New User</ins>.
+  User refers to a non-agent person that submits tickets. They can be registered or anonymous. In this example, let's create a new user by going to <ins>Agent Panel -> Users -> Add New User</ins>.
 </p>
 <p>
   
@@ -134,7 +134,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <p>
-  In this tab you can enter a name and a email in order to create a new user and it will now appear inside the "User Directory".
+  In this tab you can enter a name and an email in order to create a new user, and it will now appear inside the "User Directory".
 </p>
 <p>
   
@@ -145,7 +145,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 </p><br/>
 <h2>SLA</h2>
 <p>
-  SLA or "Service Level Agreements" are a guarantee to the customer that their problem will be solved within a frame of time, depending of the urgency of the issue. You can stipulate an arrange of SLA's for different reasons. For this example we'll create 3 different ones:
+  SLA or "Service Level Agreements" are a guarantee to the customer that their problem will be solved within a frame of time, depending on the urgency of the issue. You can stipulate an arrangement of SLA's for different reasons. For this example, we'll create 3 different ones:
   <ul>
     <li>SEV-A (1 Hour, 24/7)</li>
     <li>SEV-B (4 Hours, 24/7)</li>
@@ -159,7 +159,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <p>
-  While adding a new SLA, you must select a Name, a grace period for the problem to be solved and a schedule for the days it can be solved. You can se in the example below how it looks to create a new SLA and the screen after we created 3 of them.
+  While adding a new SLA, you must select a Name, a grace period for the problem to be solved and a schedule for the days it can be solved. You can see in the example below how it looks to create a new SLA and the screen after we created 3 of them.
 </p>
 <p>
 
@@ -170,7 +170,7 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 <h2>Help Topics</h2>
 <p>
   Help Topics help pinpoint/categorize more easily the problem for the customer at the moment they create the ticket. For example, a customer may have a problem with their hardware and so, they submit their ticket to the help topic "Equipment Malfunction".<br>
-  To create help topics go to <ins>Admin Panel -> Manage -> Help Topics</ins> and click "Add New Help Topic".
+  To create help topics, go to <ins>Admin Panel -> Manage -> Help Topics</ins> and click "Add New Help Topic".
 </p>
 <p>
 

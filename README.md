@@ -196,3 +196,8 @@ By going <ins>Agents -> Departments -> Add New Department</ins> we can create a 
 
 </p>
 <br/>
+<p>
+
+[Part 3: Ticket Life Cycle](https://github.com/DsosaH/osticket-lifecycle)
+  
+</p>
